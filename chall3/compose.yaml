@@ -1,0 +1,7 @@
+services:
+  easter3:
+    container_name: login_attempt
+    build: .
+    read_only: true
+    ports:
+    - 1337:1337

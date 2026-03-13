@@ -1,0 +1,7 @@
+services:
+  easter4:
+    container_name: secure_complex
+    build: .
+    read_only: true
+    ports:
+    - 1337:1337

@@ -1,0 +1,7 @@
+services:
+  easter2:
+    container_name: surveillance_drone
+    build: .
+    read_only: true
+    ports:
+    - 1337:1337

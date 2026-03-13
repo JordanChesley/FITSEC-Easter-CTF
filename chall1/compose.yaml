@@ -1,0 +1,7 @@
+services:
+  easter1:
+    container_name: broken_shell
+    build: .
+    read_only: true
+    ports:
+    - 1337:1337

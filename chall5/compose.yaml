@@ -1,0 +1,7 @@
+services:
+  easter5:
+    container_name: leaking_secrets
+    build: .
+    read_only: true
+    ports:
+    - 1337:1337
