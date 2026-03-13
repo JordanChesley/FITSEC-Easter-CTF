@@ -8,12 +8,12 @@ This was my first time making pwn challenges and hosting my own CTF, so it was a
 For any challenge you'd like to try, you can enter the challenge directory then run the Docker Compose to start a "remote instance". Feel free to edit the host port to your needs.
 
 For each challenge directory, the file structure follows:
-`compose.yaml` - Docker Compose file for quick container spinup.
-`Dockerfile` - The challenge Docker image
-`flag.txt` - The challenge flag
-`chall` - The compiled challenge binary
-`*.c` - The challenge source code
-`solve.py` - An example solve script for the challenge
+- `compose.yaml` - Docker Compose file for quick container spinup.
+- `Dockerfile` - The challenge Docker image
+- `flag.txt` - The challenge flag
+- `chall` - The compiled challenge binary
+- `*.c` - The challenge source code
+- `solve.py` - An example solve script for the challenge
 
 ## Challenges
 ### `./chall0/` - Resupply
